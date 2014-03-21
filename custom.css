@@ -9,12 +9,12 @@
 * Released under the MIT license.
 * http://jquery.org/license
 *
-*/.ui-bar-h{border:1px solid #333;background:red;color:#fff;font-weight:700;text-shadow:0 -1px 0 #000;
-	background-image:-webkit-gradient(linear,left top,left bottom,from(#095ca9),to(#7a8ccf));
-	background-image:-webkit-linear-gradient(#095ca9,#7a8ccf);background-image:-moz-linear-gradient(#095ca9,#7a8ccf);
-	background-image:-ms-linear-gradient(#095ca9,#7a8ccf);background-image:-o-linear-gradient(#095ca9,#7a8ccf);
-	background-image:linear-gradient(#095ca9,#7a8ccf);
-border-bottom: 4px solid #c1cbed;}
+*/.ui-bar-h{border:1px solid #333;color:#fff;font-weight:700;text-shadow:0 -1px 0 #000;
+	background-image:-webkit-gradient(linear,left top,left bottom,from(#658aba),to(#303a44));
+	background-image:-webkit-linear-gradient(#658aba,#303a44);background-image:-moz-linear-gradient(#658aba,#303a44);
+	background-image:-ms-linear-gradient(#658aba,#303a44);background-image:-o-linear-gradient(#658aba,#303a44);
+	background-image:linear-gradient(#658aba,#303a44);
+border-bottom: 2px solid #5c6979; padding: 15px;}
 
 	.ui-bar-h,.ui-bar-h input,.ui-bar-h select,.ui-bar-h textarea,.ui-bar-h button{font-family:Helvetica,Arial,sans-serif}
 	.ui-bar-h .ui-link-inherit{color:#fff}.ui-bar-h a.ui-link{color:#7cc4e7;font-weight:700}
@@ -57,10 +57,16 @@ input#submit:active{background-color: blue; opacity: 0.1; }
 box-shadow: 0px 8px 22px -3px rgba(0,0,0,0.75); text-align:center; color:#fff; }
 
 .ui-field-contain, .ui-select{width:100%; }
-
+/*
 .ui-mobile .ui-page{ 
 background : transparent url(http://hitlarrajbhandari.info/CapitalCities/images/bokeh.jpg) 0 0 no-repeat fixed !important;
     background-size : cover;
+}*/
+
+.ui-header .ui-title, .ui-footer .ui-title{padding: 15px;}
+
+.ui-mobile .ui-page{ 
+background : #455467 !important;;
 }
 
 p{color: #ff8a00; text-shadow:none;}
